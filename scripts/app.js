@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
   
   giphy('puppies');
   
-  document.querySelector('.form-inline'),addEventListener('submit', function(event) {
+  document.querySelector('.form-inline').addEventListener('submit', function(event) {
     event.preventDefault();
     gallery.innerHTML = ''
     let searchTerm = document.querySelector('.gif-input').value;
